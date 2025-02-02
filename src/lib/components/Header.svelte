@@ -36,9 +36,10 @@
     <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
         <!-- Desktop Menu -->
         <ul class="hidden md:flex space-x-6">
-            <li><a href="/" class="hover:text-gray-300 font-bold">Home</a></li>
-            <li><a href="#" class="hover:text-gray-300 font-bold">About</a></li>
-            <li><a href="#" class="hover:text-gray-300 font-bold">Contact</a></li>
+            <li><a href="/" class="hover:text-gray-300 font-bold">About</a></li>
+            <li><a href="/coding" class="hover:text-gray-300 font-bold">Coding</a></li>
+            <li><a href="/travel" class="hover:text-gray-300 font-bold">Travel</a></li>
+            <li><a href="/notes" class="hover:text-gray-300 font-bold">Notes</a></li>
         </ul>
 
         <!-- Mobile Hamburger Menu -->
@@ -90,18 +91,19 @@
         >
             <li>
                 <a href="/" class="block px-4 py-2 hover:bg-muted hover:text-muted-foreground font-bold" on:click={closeMenu}
-                    >Home</a
-                >
+                    >About</a>
             </li>
             <li>
-                <a href="#" class="block px-4 py-2 hover:bg-muted hover:text-muted-foreground font-bold" on:click={closeMenu}
-                    >About</a
-                >
+                <a href="/coding" class="block px-4 py-2 hover:bg-muted hover:text-muted-foreground font-bold" on:click={closeMenu}
+                    >Coding</a>
             </li>
             <li>
-                <a href="#" class="block px-4 py-2 hover:bg-muted hover:text-muted-foreground font-bold" on:click={closeMenu}
-                    >Contact</a
-                >
+                <a href="/travel" class="block px-4 py-2 hover:bg-muted hover:text-muted-foreground font-bold" on:click={closeMenu}
+                    >Travel</a>
+            </li>
+            <li>
+                <a href="/notes" class="block px-4 py-2 hover:bg-muted hover:text-muted-foreground font-bold" on:click={closeMenu}
+                    >Notes</a>
             </li>
         </ul>
     {/if}
